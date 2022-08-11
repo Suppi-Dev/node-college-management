@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 const { MongoClient } = require('mongodb');
-// Connection URL
+// Database Connection URL
 const url = 'mongodb://localhost:27017';
 const client = new MongoClient(url);
 
