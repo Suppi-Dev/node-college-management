@@ -37,7 +37,7 @@ github comments
 <li>update</li>
 <li>read</li>
 <li>delete</li></ol>
-<h2>created student :id,name,dept,marks<h2/>
+<h3>created student :id,name,dept,marks</h3>
 
 <li>NEXT moved on to the node.js</li>
 <ul>
