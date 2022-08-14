@@ -88,19 +88,19 @@ studio3T is the tool to interact with Mongodb</strong></em></p>
  <li>Learned the Reading =</li>
  <li>Langague-Javascript:</li>
  <ol>
-<li>const:is a single that the identifier wont be reassigned.Example:const x=12;</li>
-<li>Let:use let when you know that value of variable 
+<li><h3>const:</h3>is a single that the identifier wont be reassigned.Example:const x=12;</li>
+<li><h3>Let:</h3>use let when you know that value of variable 
      :Let allows to use declare variable.</li>
-<li>var:is a function scoped.</li>
-<li>Object:Is the a non-primitive data-type allows you to store multiple collection of data.</li>
-<li>Nested Object:Are  the object that are inside another object/one object that contain another object.</li>
-<li>Array:An array is the special variable which can hold more than a value.</li>
-<li>Popping And Pushing Array:popping is the out of items.</li>
+<li><h3>var:</h3>is a function scoped.</li>
+<li><h3>Object:</h3>Is the a non-primitive data-type allows you to store multiple collection of data.</li>
+<li><h3>Nested Object:</h3>Are  the object that are inside another object/one object that contain another object.</li>
+<li><h3>Array:</h3>An array is the special variable which can hold more than a value.</li>
+<li><h3>Popping And Pushing Array:</h3>popping is the out of items.</li>
                            <p> Pusing is the items that is into an array</p>
-<li>Sorting The Array:method that sort an array alphabetically</li></ol>   
+<li><h3>Sorting The Array:</h3>method that sort an array alphabetically</li></ol>   
 <p>
 
-<li>Working with mongodb updates</li></p>
+<li><h3>Working with mongodb updates</li></p></h3>
 
 <li>Setting up mongodb atlas</li>
 <li>Connected studio 3T to mongodb atlas(cloud)</li>
@@ -109,14 +109,14 @@ studio3T is the tool to interact with Mongodb</strong></em></p>
 <p>
 Learned :</p>
 <ol>
-<li>API = API is a Application programming interface, Which is a software intermediary that allows two application to talk to each other</li>
-<li>How the Client communicate with the Server = client and server communicates by Exchanging Individual Message (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses.(json)</li>
-<li> What is HTTP Protocol =  HyperText Transfer Protocol::is the protocol that web browsers and web servers use to communicate with each other over the Internet.</li>
-<li> Types in HTTP protocol = POST,GET,PUT,DELETE.</li><ol>
-a)POST:A post request is used to send data to the server
-b)GET:A get method is used to retrieve information from the given server using a given URI
-c)PUT:A put method is a replace all current representations of the target resources with the upload content.
-d)DELETE:remove all current representations of the target resources given by a URI</ol></li></ol>
+<li><h3>API </h3> = API is a Application programming interface, Which is a software intermediary that allows two application to talk to each other</li>
+<li><h3>How the Client communicate with the Server </h3>= client and server communicates by Exchanging Individual Message (as opposed to a stream of data). The messages sent by the client, usually a Web browser, are called requests and the messages sent by the server as an answer are called responses.(json)</li>
+<li><h3> What is HTTP Protocol </h3>=  HyperText Transfer Protocol::is the protocol that web browsers and web servers use to communicate with each other over the Internet.</li>
+<li><h3> Types in HTTP protocol </h3>= POST,GET,PUT,DELETE.</li><ol>
+<h3>a)POST:</h3>A post request is used to send data to the server
+<h3>b)GET:</h3>A get method is used to retrieve information from the given server using a given URI
+<h3>c)PUT:</h3>A put method is a replace all current representations of the target resources with the upload content.
+<h3>d)DELETE:</h3>remove all current representations of the target resources given by a URI</ol></li></ol>
 
 
 <li>Communication between clients and servers is done by requests and responses:</li></p>
