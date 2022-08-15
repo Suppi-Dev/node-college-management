@@ -67,10 +67,10 @@
     - 401 Unauthorized
     - 403 Forbidden	
     - 404 Not Found
-    - 423 
-    - 429 
-    - 500
-    - 503 
+    - 423 Locked
+    - 429 Too Many Requests
+    - 500 Internal Server Error
+    - 503 Service Unavailable
 
 
 
