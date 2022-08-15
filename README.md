@@ -44,3 +44,36 @@
    - Read Operation
    - Update Operation
    - Delete Operation
+
+#### Working with MongoDB Server - Node JS with Express 
+- Installed MongoDB on the laptop
+- Started the MongoDB Server in local using the comment
+```mongod --dbpath "c:/data/db```
+- Setup the Node JS Project
+- Installed middleware for different API routing - $ npm install express
+- Learned on http protocol
+- Learned different types of HTTP methods 
+   - Post Method
+   - Get Method
+   - Put Method
+   - Delete Method
+
+#### Working with postman API tool
+-  Installed Postman Tool on the laptop
+- Learned how to hit the API URL for different  methods with postman request
+- Learned different types of status code
+    - 200 Success
+    - 400 Bad Request	
+    - 401 Unauthorized
+    - 403 Forbidden	
+    - 404 Not Found
+    - 423 
+    - 429 
+    - 500
+    - 503 
+
+
+
+
+
+
