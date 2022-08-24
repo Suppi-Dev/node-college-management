@@ -80,7 +80,7 @@
 
 
 ####  Working with Callback,Promises,Async/Await - functions
-- Callback function is an passing function as a argument to anoter function
+- Callback function is an passing function as a argument to anoter function(callback will wait untill to complete one and move to another)
 - promises
    - pending
    - fullfilment/resolve
