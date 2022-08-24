@@ -71,9 +71,24 @@
     - 429 Too Many Requests
     - 500 Internal Server Error
     - 503 Service Unavailable
+#### Naming conventions
+- File name should be camelCase
+- Variable declaration should be camelCase
+- Environment name should be UPPERCASE
+- Folder name should be lowercase
+- Project name should be kebab-case
 
 
-
+####  Working with Callback,Promises,Async/Await - functions
+- Callback function is an passing function as a argument to anoter function
+- promises
+   - pending
+   - fullfilment/resolve
+   - reject
+- Async/Await
+   - Async function always returns a promises
+   - Await function is only valid in async function
+   
 
 
 
