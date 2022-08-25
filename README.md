@@ -83,20 +83,19 @@
 - What is Callback function?
    - A callback is a function passed as an argument to another function.
    - As these take time to finish, we can neither proceed to next line because it might throw an error saying unavailable nor we can pause our program.
-   - This technique allows a function to call another function.
-   - A callback function can run after another function has finished.
+   - A callback function can run one after another function has finished.
 
 - What is the problem with Callback function?
-   - The biggest problem with callbacks is that they do not scale well for even moderately complex asynchronous code. The resulting code often becomes hard to read, easy to break, and hard to debug.
+   - The problem with callback is that all functions are written in nested one within another, this resulting any error happens in middle of code often its  hard to read and debug.
 
 - What is Async/Await
    -  The word “async” before a function means one simple thing: a function always returns a promise. Other values are wrapped in a resolved promise automatically.
    - Await function is only valid in async function which makes the program wait until the Promise resolves.
 - Why Async/Await?
-   - It allows a program to run a function without freezing the entire program.
+   - It allows the program to wait for any Network calls to be completed before moving to next line.
 
 - What is preferrable?callback vs Async/Await
-    - Async/Await
+    - Async/Await, as the codes are easy to read and debug.
    
 
 

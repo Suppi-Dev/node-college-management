@@ -15,16 +15,16 @@ app.get('/', (req, res) => {
 
 
 
-app.post('/create',  (req, res) => {
-    client.connect();
-    const studentCollection = client.db("college").collection("students");
-    const insertResult = studentCollection.insertOne({ name: "suppi", age: 22, dept: "CSE" });
-    res.send(insertResult)
-})
-app.get('/list', async (req, res) => {
+app.post('/create', async (req, res) => {
     await client.connect();
     const studentCollection = client.db("college").collection("students");
-    const findResult = await studentCollection.find({ dept: { $eq: "CSE" } });
+    const insertResult = await studentCollection.insertOne({ name: "suppi", age: 22, dept: "CSE" });
+    res.send(insertResult)
+})
+app.get('/list', (req, res) => {
+    client.connect();
+    const studentCollection = client.db("college").collection("students");
+    const findResult = studentCollection.find({ dept: { $eq: "CSE" } });
     res.send(findResult)
 })
 
