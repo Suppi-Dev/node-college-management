@@ -89,7 +89,7 @@
    - The problem with callback is that all functions are written in nested one within another, this resulting any error happens in middle of code often its  hard to read and debug.
 
 - What is Async/Await
-   -  The word “async” before a function means one simple thing: a function always returns a promise. Other values are wrapped in a resolved promise automatically.
+   -A function always returns a promise. Other values are wrapped in a resolved promise automatically.
    - Await function is only valid in async function which makes the program wait until the Promise resolves.
 - Why Async/Await?
    - It allows the program to wait for any Network calls to be completed before moving to next line.
