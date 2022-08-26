@@ -100,8 +100,13 @@
 
 ####  Working with Dynamicrequest
 - Made the method - POST API
-- Made the data dynamic in nature 
+- Made the data dynamic in nature
 - Used bodyParser object exposes various factories to create middlewares.
+- This module provides the following parsers:
+   - JSON body parser
+   - Raw body parser
+   - Text body parser
+   - URL-encoded form body parser
 - All middlewares will use the req.body
 - Property with the parsed body when the Content-Type request header matches the type option, or an empty object ({}) 
 - In that case in postman we use Json present in body 
