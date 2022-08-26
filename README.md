@@ -98,5 +98,20 @@
     - Async/Await, as the codes are easy to read and debug.
    
 
+####  Working with Dynamicrequest
+- Made the method - POST API
+- Made the data dynamic in nature 
+- Used bodyParser object exposes various factories to create middlewares.
+- All middlewares will use the req.body
+- Property with the parsed body when the Content-Type request header matches the type option, or an empty object ({}) 
+- In that case in postman we use Json present in body 
+- Select~body~raw~json
 
+- Using Postman to change the insertion different records
+- Checking in the Mongodb/studio3T whether record is found
+- And its created a middleware in server
+
+- Learned abt the destructuring 
+   - What is destructuring?
+   - Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable. Destructuring allows us to write clean and readable code.
 
