@@ -1,6 +1,8 @@
 const express = require('express')
+const bodyParser = require('body-parser');
 const { result } = require('lodash')
 const app = express()
+app.use(bodyParser.json());
 const port = 3000
 
 const { MongoClient } = require('mongodb');
@@ -18,13 +20,16 @@ app.get('/', (req, res) => {
 app.post('/create', async (req, res) => {
     await client.connect();
     const studentCollection = client.db("college").collection("students");
-    const insertResult = await studentCollection.insertOne({ name: "suppi", age: 22, dept: "CSE" });
+    const { firstName, age, dept } = req.body
+    const insertResult = await studentCollection.insertOne({ firstName: firstName, age: age, dept: dept });
     res.send(insertResult)
 })
-app.get('/list', (req, res) => {
-    client.connect();
+
+app.get('/list', async (req, res) => {
+    await client.connect();
     const studentCollection = client.db("college").collection("students");
-    const findResult = studentCollection.find({ dept: { $eq: "CSE" } });
+    console.log(req.body);
+    const findResult = await studentCollection.find({ dept: { $eq: req.body.dept } });
     res.send(findResult)
 })
 
