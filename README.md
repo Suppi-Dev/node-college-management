@@ -105,7 +105,7 @@
 - All middlewares will use the req.body
 - Property with the parsed body when the Content-Type request header matches the type option, or an empty object ({}) 
 - In that case in postman we use Json present in body 
-- Select~body~raw~json
+- Select body raw json
 
 - Using Postman to change the insertion different records
 - Checking in the Mongodb/studio3T whether record is found
