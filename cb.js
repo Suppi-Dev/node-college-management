@@ -16,6 +16,7 @@ function cSqr(n, cb) {
         cb(n * n);
     })
 }
+
 cSqr(2, function (res) {
     console.log(res);
     cSqr(res, function (res1) {
