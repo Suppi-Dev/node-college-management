@@ -114,4 +114,5 @@
 - Learned abt the destructuring objects in javascripts
    - What is destructuring?
    - Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable. Destructuring allows us to write clean and readable code.
+   - To avoid more using req.body we are going to destructuring object 
 
