@@ -111,7 +111,7 @@
 - Checking in the Mongodb/studio3T whether record is found
 - And its created a middleware in server
 
-- Learned abt the destructuring 
+- Learned abt the destructuring objects in javascripts
    - What is destructuring?
    - Destructuring is a way to unpack arrays, and objects and assigning to a distinct variable. Destructuring allows us to write clean and readable code.
 
